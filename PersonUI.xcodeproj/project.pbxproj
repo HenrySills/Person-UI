@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8DD9C61B22B4652100581FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9C61A22B4652100581FE5 /* AppDelegate.swift */; };
-		8DD9C61D22B4652100581FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9C61C22B4652100581FE5 /* ViewController.swift */; };
 		8DD9C62022B4652100581FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9C61E22B4652100581FE5 /* Main.storyboard */; };
 		8DD9C62322B4652100581FE5 /* PersonUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9C62122B4652100581FE5 /* PersonUI.xcdatamodeld */; };
 		8DD9C62522B4652100581FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9C62422B4652100581FE5 /* Assets.xcassets */; };
 		8DD9C62822B4652200581FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9C62622B4652200581FE5 /* LaunchScreen.storyboard */; };
 		8DD9C63322B4652200581FE5 /* PersonUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9C63222B4652200581FE5 /* PersonUIUITests.swift */; };
+		8DD9C63E22B4657E00581FE5 /* PersonUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9C63D22B4657E00581FE5 /* PersonUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		8DD9C61722B4652100581FE5 /* PersonUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD9C61A22B4652100581FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DD9C61C22B4652100581FE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DD9C61F22B4652100581FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD9C62222B4652100581FE5 /* PersonUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonUI.xcdatamodel; sourceTree = "<group>"; };
 		8DD9C62422B4652100581FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		8DD9C62E22B4652200581FE5 /* PersonUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD9C63222B4652200581FE5 /* PersonUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonUIUITests.swift; sourceTree = "<group>"; };
 		8DD9C63422B4652200581FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD9C63D22B4657E00581FE5 /* PersonUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				8DD9C61A22B4652100581FE5 /* AppDelegate.swift */,
-				8DD9C61C22B4652100581FE5 /* ViewController.swift */,
 				8DD9C61E22B4652100581FE5 /* Main.storyboard */,
 				8DD9C62422B4652100581FE5 /* Assets.xcassets */,
 				8DD9C62622B4652200581FE5 /* LaunchScreen.storyboard */,
 				8DD9C62922B4652200581FE5 /* Info.plist */,
 				8DD9C62122B4652100581FE5 /* PersonUI.xcdatamodeld */,
+				8DD9C63D22B4657E00581FE5 /* PersonUIViewController.swift */,
 			);
 			path = PersonUI;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD9C61D22B4652100581FE5 /* ViewController.swift in Sources */,
 				8DD9C61B22B4652100581FE5 /* AppDelegate.swift in Sources */,
 				8DD9C62322B4652100581FE5 /* PersonUI.xcdatamodeld in Sources */,
+				8DD9C63E22B4657E00581FE5 /* PersonUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
